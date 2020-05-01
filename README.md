@@ -16,5 +16,5 @@ Hi all! This is **Team G** of CSCI 3250! In the following we will be doing a few
 ```C
 
 ```
-
+{% include_relative project-team-g/code.c %}
 # Contributors
