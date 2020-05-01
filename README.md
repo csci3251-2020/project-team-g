@@ -14,7 +14,8 @@ Hi all! This is **Team G** of CSCI 3250! In the following we will be doing a few
 # Code
 
 ```C
-
+{% include_relative code.c %}
 ```
-{% include_relative project-team-g/code.c %}
+![](https://github.com/csci3251-2020/project-team-g/workflows/teamgbadge/badge.svg)
+
 # Contributors
