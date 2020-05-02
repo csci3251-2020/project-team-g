@@ -13,8 +13,8 @@ Hi all! This is **Team G** of CSCI 3250! In the following we will be doing a few
 
 # Code
 
-```C
+```c
 {% include_relative code.c %}
 ```
-![](https://github.com/csci3251-2020/project-team-g/workflows/teamgbadge/badge.svg)
+![teamgbadge](https://github.com/csci3251-2020/project-team-g/workflows/teamgbadge/badge.svg)
 # Contributors
