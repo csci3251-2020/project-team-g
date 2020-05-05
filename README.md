@@ -22,12 +22,12 @@ Hi all! This is **Team G** of CSCI 3250! In the following we will be doing a few
 
 
 <table>
-  <tbody>
+<tbody>
     {% for member in site.stu %}
       <tr>
-        <td><img src="{{member.image}}" /><br>
-           @{{member.user}}({{member.name}})<br>
-            {{ member.content | markdownify }}</td>
+        <td><img src="{{ member.image }}" width = "60" height = "60" /><br>
+        @{{ member.user }}({{ member.name }})<br>
+        {{ member.content | markdownify }}</td>
       </tr>  
     {% endfor %}
 </tbody>
