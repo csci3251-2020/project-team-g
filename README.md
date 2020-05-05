@@ -17,4 +17,18 @@ Hi all! This is **Team G** of CSCI 3250! In the following we will be doing a few
 {% include_relative code.c %}
 ```
 ![teamgbadge](https://github.com/csci3251-2020/project-team-g/workflows/teamgbadge/badge.svg)
+
 # Contributors
+
+
+<table>
+  <tbody>
+    {% for member in site.stu %}
+      <tr>
+        <td><img src="{{member.image}}" /><br>
+           @{{member.user}}({{member.name}})<br>
+            {{ member.content | markdownify }}</td>
+      </tr>  
+    {% endfor %}
+</tbody>
+</table>
